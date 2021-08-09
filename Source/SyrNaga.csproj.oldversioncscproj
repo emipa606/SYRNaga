@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83126417-E61E-42E3-A319-43CBF96144D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SyrNaga</RootNamespace>
+    <AssemblyName>SyrNaga</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony" />
+    <Reference Include="AlienRace" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmitterMote.cs" />
+    <Compile Include="FoodOptimalityPatch.cs" />
+    <Compile Include="GenerateNewPawnInternalPatch.cs" />
+    <Compile Include="GenerateQualityCreatedByPawnPatch.cs" />
+    <Compile Include="GetGizmosPatch.cs" />
+    <Compile Include="Gizmo_HediffComp_Shield.cs" />
+    <Compile Include="Gizmo_NagaEnergyShieldStatus.cs" />
+    <Compile Include="Graphic_Naga.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="HasPartsToWearPatch.cs" />
+    <Compile Include="IngestedCalculateAmountsPatch.cs" />
+    <Compile Include="NagaDefOf.cs" />
+    <Compile Include="NagaShieldBelt.cs" />
+    <Compile Include="NagaShieldEmitter.cs" />
+    <Compile Include="NagaUtility.cs" />
+    <Compile Include="PreApplyDamagePatch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenderPawnInternalPatch.cs" />
+    <Compile Include="ResolveAllGraphicsPatch.cs" />
+    <Compile Include="RulesForPawnPatch.cs" />
+    <Compile Include="ShieldHediff.cs" />
+    <Compile Include="SkillNeed_DirectNaga.cs" />
+    <Compile Include="SyrNagaCore.cs" />
+    <Compile Include="SyrNagaSettings.cs" />
+    <Compile Include="ThoughtWorker_NagaThought.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
