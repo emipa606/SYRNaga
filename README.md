@@ -7,16 +7,25 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1539971494
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/SYRNaga]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
 ![Image](https://i.imgur.com/NOW7jU1.png)
 
 ### **Adds a playable naga race**
 
 
-*If you are having issues with the food AI of Naga, enable &quot;use standard AI&quot; in the settings*
+*If you are having issues with the food AI of Naga, enable "use standard AI" in the settings*
 
 **Requires https://steamcommunity.com/workshop/filedetails/?id=839005762]Humanoid Alien Framework loaded before this**
-https://steamcommunity.com/sharedfiles/filedetails/?id=1461790308]Harvest Yield Patch is not required, but highly recommended, otherwise some aspects of the race won&apos;t work as I intended them to.
+https://steamcommunity.com/sharedfiles/filedetails/?id=1461790308]Harvest Yield Patch is not required, but highly recommended, otherwise some aspects of the race won't work as I intended them to.
     
 The Naga are a technologically advanced race without a functional goverment or law enforcement since their homeworld has become inhabitable.  This means they can be found mostly on space stations and ships and occassionally on Rimworlds as well.
 
@@ -67,13 +76,7 @@ __________
 
 
 Also check out my other Rimworld mods:
-https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis&apos; Mods
-
-If you enjoy my mods consider supporting me:
-https://www.patreon.com/syrchalis]![Image](https://i.imgur.com/NNM7mbP.png)
-
-https://ko-fi.com/A0A0IJ2R]![Image](https://i.imgur.com/QMURwKz.png)
-
+https://steamcommunity.com/workshop/filedetails/?id=1474000866]Syrchalis' Mods
 
 ![Image](https://i.imgur.com/Rs6T6cr.png)
 
@@ -85,6 +88,7 @@ https://ko-fi.com/A0A0IJ2R]![Image](https://i.imgur.com/QMURwKz.png)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

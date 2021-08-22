@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>cb71febf-1e86-4ac9-b495-f5d67ddef497</ID>
   <ModName>[SYR] Naga (Continued)</ModName>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,7 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
